@@ -1,0 +1,52 @@
+.header{
+	height: 16vh;
+	background-color: #808080;
+}
+.contacts{
+	border: solid;
+	border-color: black;
+	max-height: 20vh;
+}
+.names p{
+	font-size: 2em;
+	margin: 5%;
+}
+footer{
+	height: 10vh;
+	text-align: center;
+	background: #CDD8D8;
+}
+.msg{
+	border-radius: 10%;
+	max-width: 100vw;
+	background: blue;
+	margin: 5%;
+	padding: 5%;
+
+}
+.sender{
+	float: right;
+	color: black;
+	border-radius: 50%;
+	display: inline-block; 
+}
+.receive{
+	float: left;
+	color: white;
+	display: inline-block;
+	border-radius: 50%;
+}
+.reply-main{
+	display: flex;
+	color-interpolation-filters: green;
+    align-content: flex-end;
+    margin-top: 30%;
+    position: relative;
+
+}
+.choose-opp{
+
+	margin: 50%;
+	margin-left: 0%;
+}
+
